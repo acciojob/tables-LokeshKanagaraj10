@@ -8,7 +8,9 @@
 </head>
 
 <body>
-	<table class="font-monospace, text-end, fw-bold table">
+	<div class="table-responsive-sm">
+	<table class="table">
+		<caption class="caption">Amount Table</caption>
 		<thead class="table-dark">
 		  <tr>
 			<td>#</td>
@@ -18,33 +20,34 @@
 		  </tr>
 		</thead>
 		<tbody>
-		<tr>
+		<tr class="row1">
 		  <td>1</td>
 		  <td>Mark</td>
 		  <td>Otto</td>
 		  <td>1000</td>
 		</tr>
-		<tr>
+		<tr class="row2">
 			<td>2</td>
 			<td>Jacob</td>
 			<td>Thronton</td>
 			<td>1500</td>
-		  </tr>
+		  </tr class=row3>
 		  <tr>
 			<td>3</td>
 			<td>Jack</td>
 			<td>John</td>
 			<td>2000</td>
 		  </tr>
-		  <tr>
+		  <tfoot class="footer">
+			<tr>
 			<td></td>
-			<td></td>
-			<td></td>
-			<td id="total">Total 4000</td>
-		  </tr>
+			<td colspan="3" id="total">Total 4000</td>
+		   </tr>
+		  </tfoot>
 
 		</tbody>
 	  </table>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
