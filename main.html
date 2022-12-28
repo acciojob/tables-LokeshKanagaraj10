@@ -5,46 +5,47 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<title>Bootstrap Tables</title>
 </head>
 
 <body>
-	<div class="table-responsive-sm">
-	<table class="table">
+	<h2>Table responsive</h2>
+	<div class="table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl table-responsive-xxl">
+	<table class="table table-hover">
 		<caption class="caption">Amount Table</caption>
 		<thead class="table-dark">
 		  <tr>
-			<td>#</td>
-			<td>From</td>
-			<td>To</td>
-			<td>Amount($)</td>
+			<th scope="col">#</th>
+			<th scope="col">From</th>
+			<th scope="col">To</th>
+			<th scope="col">Amount($)</th>
 		  </tr>
 		</thead>
 		<tbody>
-		<tr class="row1">
-		  <td>1</td>
+		<tr>
+		  <th scope="row">1</th>
 		  <td>Mark</td>
 		  <td>Otto</td>
 		  <td>1000</td>
 		</tr>
-		<tr class="row2">
-			<td>2</td>
+		<tr>
+			<th scpoe="row">2</th>
 			<td>Jacob</td>
 			<td>Thronton</td>
 			<td>1500</td>
 		  </tr class=row3>
 		  <tr>
-			<td>3</td>
+			<th scope="row">3</th>
 			<td>Jack</td>
 			<td>John</td>
 			<td>2000</td>
 		  </tr>
-		  <tfoot class="footer">
+		  <tfoot class="table-light footer">
 			<tr>
 			<td></td>
 			<td colspan="3" id="total">Total 4000</td>
 		   </tr>
 		  </tfoot>
-
 		</tbody>
 	  </table>
 	</div>
