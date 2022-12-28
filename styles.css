@@ -1,2 +1,24 @@
+*{
+    font-weight: 400;
+}
+.table{
+    width: 100%;
+}
+.table #total{
+    font-weight: 700;
+    text-align: start;
+    padding-left: 200px;
+}
+.table, th, tr, td{
 
-/* Your CSS Code here. */
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-dark{
+    background-color: black;
+    color: white;
+}
